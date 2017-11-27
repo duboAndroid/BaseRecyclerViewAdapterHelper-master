@@ -105,7 +105,7 @@ public class ItemDragAndSwipeUseActivity extends BaseActivity {
         mAdapter.setOnItemSwipeListener(onItemSwipeListener);
         mAdapter.enableDragItem(mItemTouchHelper);
         mAdapter.setOnItemDragListener(listener);
-//        mRecyclerView.addItemDecoration(new GridItemDecoration(this ,R.drawable.list_divider));
+        //mRecyclerView.addItemDecoration(new GridItemDecoration(this ,R.color.color_light_blue)); //这里是drawable
 
         mRecyclerView.setAdapter(mAdapter);
 //        mRecyclerView.addOnItemTouchListener(new OnItemClickListener() {
